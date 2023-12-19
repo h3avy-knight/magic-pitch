@@ -6,6 +6,33 @@
   height: 40vmin;
   pointer-events: none;
 }
+.linear {
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    329deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(29, 253, 185, 1) 48%,
+    rgba(252, 176, 69, 1) 100%
+  );
+}
+.backgroung-bg {
+  background-image: url("../src/assets/linear-bg.webp");
+  height: 100vh;
+  margin-top: 5px;
+  margin-right: 5px;
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+  -webkit-box-shadow: inset 0px -200px 55px -14px rgba(255, 255, 255, 1);
+  -moz-box-shadow: inset 0px -200px 55px -14px rgba(255, 255, 255, 1);
+  box-shadow: inset 0px -200px 55px -14px rgba(255, 255, 255, 1);
+  z-index: 100;
+}
+.gradient_text {
+  background: linear-gradient(270deg, #b527cf, #3bd9d9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
